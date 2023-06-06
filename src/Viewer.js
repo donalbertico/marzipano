@@ -220,6 +220,7 @@ Viewer.prototype.updateSize = function() {
   var size = this._size;
   size.width = this._domElement.clientWidth;
   size.height = this._domElement.clientHeight;
+  console.log('JUEPUTA', size, this._domElement.parentElement);
   this._stage.setSize(size);
 };
 
